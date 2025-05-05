@@ -21,4 +21,9 @@ export class LoginComponent {
     // Redirect to the signup page
     this.router.navigate(['/signup']);
   }
+
+  onMenu() {
+    // Redirect to the signup page
+    this.router.navigate(['/menu']);
+  }
 }
