@@ -1,0 +1,8 @@
+{
+  "routes": {
+    "/mydonmac": {},
+    "/mydonmac/login": {},
+    "/mydonmac/menu": {},
+    "/mydonmac/signup": {}
+  }
+}
