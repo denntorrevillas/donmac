@@ -1,0 +1,115 @@
+.login-input {
+    display: grid;
+    margin-bottom: 16px;
+}
+
+.top {
+    background-color: #FFC300;
+    border-radius: 0px 0px 180px 180px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.button button {
+    width: 100%;
+    height: 32px;
+    background-color: #FFC300;
+    border-style: solid;
+    border-width: 0.2px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    border-color: transparent;
+}
+
+.logo {
+    padding: 20px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+body {
+    padding: 0% 10%; /* Adjusted for better responsiveness */
+}
+
+.login-input input {
+    padding-left: 8px;
+    height: 32px;
+    border-style: solid;
+    border-width: 0.2px;
+    border-radius: 8px;
+    border-color: #b0b0b0;
+}
+
+.login-input label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.bottom h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.forgot {
+    display: flex;
+    justify-content: space-between;
+}
+
+.showpass {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.forgot p {
+    font-size: 12px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    body {
+        width: 100%;
+        padding: 0%;
+    }
+
+    .button button {
+        height: 40px; /* Slightly larger buttons for touch devices */
+    }
+
+    .forgot p {
+        font-size: 14px; /* Easier to read on smaller devices */
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        width: 100%;
+        padding: 0%;
+    }
+    .bottom{
+        padding: 0% 5%;
+    }
+    .top {
+        border-radius: 0px;
+        padding: 5%;
+        border-radius: 0px 0px 200px 200px;
+    }
+
+    .login-input input {
+        font-size: 14px; /* Adjust input text size */
+    }
+
+    .forgot {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .forgot p {
+        margin-bottom: 8px;
+    }
+}
